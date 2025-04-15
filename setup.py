@@ -1,7 +1,7 @@
 # =====================================
 # generator=datazen
-# version=3.1.4
-# hash=f993f366d875477ffb6517fa8dcc1e1d
+# version=3.2.1
+# hash=856439de96bc85ee8796f6c4c686eda7
 # =====================================
 
 """
@@ -18,9 +18,9 @@ except (ImportError, ModuleNotFoundError):
 from userfs import DESCRIPTION, PKG_NAME, VERSION
 
 author_info = {
-    "name": "Vaughn Kottler",
-    "email": "vaughnkottler@gmail.com",
-    "username": "vkottler",
+    "name": "Libre Embedded",
+    "email": "vaughn@libre-embedded.com",
+    "username": "libre-embedded",
 }
 pkg_info = {
     "name": PKG_NAME,
@@ -28,9 +28,8 @@ pkg_info = {
     "version": VERSION,
     "description": DESCRIPTION,
     "versions": [
-        "3.10",
-        "3.11",
         "3.12",
+        "3.13",
     ],
 }
 setup(

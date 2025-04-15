@@ -1,37 +1,29 @@
 <!--
     =====================================
     generator=datazen
-    version=3.1.4
-    hash=9f7925d85eb960826e86546d7e5531ed
+    version=3.2.1
+    hash=cf8566a23831968bab84dbb2581cceb7
     =====================================
 -->
 
-# userfs ([1.1.4](https://pypi.org/project/userfs/))
+# userfs ([1.1.5](https://pypi.org/project/userfs/))
 
 [![python](https://img.shields.io/pypi/pyversions/userfs.svg)](https://pypi.org/project/userfs/)
-![Build Status](https://github.com/vkottler/userfs/workflows/Python%20Package/badge.svg)
-[![codecov](https://codecov.io/gh/vkottler/userfs/branch/master/graphs/badge.svg?branch=master)](https://codecov.io/github/vkottler/userfs)
+![Build Status](https://github.com/libre-embedded/userfs/workflows/Python%20Package/badge.svg)
+[![codecov](https://codecov.io/gh/libre-embedded/userfs/branch/master/graphs/badge.svg?branch=master)](https://codecov.io/github/libre-embedded/userfs)
 ![PyPI - Status](https://img.shields.io/pypi/status/userfs)
 ![Dependents (via libraries.io)](https://img.shields.io/librariesio/dependents/pypi/userfs)
 
 *A system-bootstrapping automation and introspection tool.*
 
-## Documentation
-
-### Generated
-
-* By [sphinx-apidoc](https://vkottler.github.io/python/sphinx/userfs)
-(What's [`sphinx-apidoc`](https://www.sphinx-doc.org/en/master/man/sphinx-apidoc.html)?)
-* By [pydoc](https://vkottler.github.io/python/pydoc/userfs.html)
-(What's [`pydoc`](https://docs.python.org/3/library/pydoc.html)?)
+([interface documentation](https://libre-embedded.github.io/python/userfs))
 
 ## Python Version Support
 
 This package is tested with the following Python minor versions:
 
-* [`python3.10`](https://docs.python.org/3.10/)
-* [`python3.11`](https://docs.python.org/3.11/)
 * [`python3.12`](https://docs.python.org/3.12/)
+* [`python3.13`](https://docs.python.org/3.13/)
 
 ## Platform Support
 
