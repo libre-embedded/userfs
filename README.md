@@ -1,12 +1,12 @@
 <!--
     =====================================
     generator=datazen
-    version=3.2.1
-    hash=cf8566a23831968bab84dbb2581cceb7
+    version=3.2.3
+    hash=c187f5980896a32d05379bd79cf38e50
     =====================================
 -->
 
-# userfs ([1.1.5](https://pypi.org/project/userfs/))
+# userfs ([1.1.6](https://pypi.org/project/userfs/))
 
 [![python](https://img.shields.io/pypi/pyversions/userfs.svg)](https://pypi.org/project/userfs/)
 ![Build Status](https://github.com/libre-embedded/userfs/workflows/Python%20Package/badge.svg)
@@ -15,6 +15,8 @@
 ![Dependents (via libraries.io)](https://img.shields.io/librariesio/dependents/pypi/userfs)
 
 *A system-bootstrapping automation and introspection tool.*
+
+Consider [sponsoring development](https://github.com/sponsors/libre-embedded).
 
 ([interface documentation](https://libre-embedded.github.io/python/userfs))
 
