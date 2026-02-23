@@ -1,16 +1,12 @@
 # =====================================
 # generator=datazen
 # version=3.2.3
-# hash=c3b94c7c029203ccd0bc061a0024237d
+# hash=4a20da8fec7342f05a3715fb1cd2b996
 # =====================================
 
 """
 A module aggregating package commands.
 """
-
-# built-in
-from typing import List as _List
-from typing import Tuple as _Tuple
 
 # third-party
 from vcorelib.args import CommandRegister as _CommandRegister
@@ -21,7 +17,7 @@ from userfs.commands.custom import add_custom_cmd
 from userfs.commands.fetch import add_fetch_cmd
 
 
-def commands() -> _List[_Tuple[str, str, _CommandRegister]]:
+def commands() -> list[tuple[str, str, _CommandRegister]]:
     """Get this package's commands."""
 
     return [
