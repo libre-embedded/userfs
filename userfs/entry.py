@@ -1,7 +1,7 @@
 # =====================================
 # generator=datazen
 # version=3.2.3
-# hash=145a14a5b38e8a9f107bdedef7c2e7af
+# hash=052318ec8304aae3291436aa7c2f8aa6
 # =====================================
 
 """
@@ -13,7 +13,6 @@ import argparse
 import os
 from pathlib import Path
 import sys
-from typing import List
 
 # third-party
 from vcorelib.logging import init_logging, logging_args
@@ -23,7 +22,7 @@ from userfs import DESCRIPTION, VERSION
 from userfs.app import add_app_args, entry
 
 
-def main(argv: List[str] = None) -> int:
+def main(argv: list[str] = None) -> int:
     """Program entry-point."""
 
     result = 0

@@ -2,11 +2,11 @@
     =====================================
     generator=datazen
     version=3.2.3
-    hash=c187f5980896a32d05379bd79cf38e50
+    hash=a03cf0f410c3ab547bf54ccbe915fff8
     =====================================
 -->
 
-# userfs ([1.1.6](https://pypi.org/project/userfs/))
+# userfs ([1.1.7](https://pypi.org/project/userfs/))
 
 [![python](https://img.shields.io/pypi/pyversions/userfs.svg)](https://pypi.org/project/userfs/)
 ![Build Status](https://github.com/libre-embedded/userfs/workflows/Python%20Package/badge.svg)
@@ -24,8 +24,8 @@ Consider [sponsoring development](https://github.com/sponsors/libre-embedded).
 
 This package is tested with the following Python minor versions:
 
-* [`python3.12`](https://docs.python.org/3.12/)
 * [`python3.13`](https://docs.python.org/3.13/)
+* [`python3.14`](https://docs.python.org/3.14/)
 
 ## Platform Support
 
@@ -40,7 +40,7 @@ This package is tested on the following platforms:
 # Command-line Options
 
 ```
-$ ./venv3.12/bin/ufs -h
+$ ./venv3.14/bin/ufs -h
 
 usage: ufs [-h] [--version] [-v] [-q] [--curses] [--no-uvloop] [-C DIR]
            {build,custom,fetch,noop} ...
@@ -54,7 +54,7 @@ options:
   -q, --quiet           set to reduce output
   --curses              whether or not to use curses.wrapper when starting
   --no-uvloop           whether or not to disable uvloop as event loop driver
-  -C DIR, --dir DIR     execute from a specific directory
+  -C, --dir DIR         execute from a specific directory
 
 commands:
   {build,custom,fetch,noop}
@@ -72,7 +72,7 @@ commands:
 ### `build`
 
 ```
-$ ./venv3.12/bin/ufs build -h
+$ ./venv3.14/bin/ufs build -h
 
 usage: ufs build [-h] [-c CONFIG] [-a] [-n] [-p PATTERN] [-d] [projects ...]
 
@@ -82,11 +82,10 @@ positional arguments:
 
 options:
   -h, --help            show this help message and exit
-  -c CONFIG, --config CONFIG
-                        an optional path to the configuration directory
+  -c, --config CONFIG   an optional path to the configuration directory
   -a, --all             interact with all configured projects
   -n, --no-interact     don't run package-implemented interactions
-  -p PATTERN, --pattern PATTERN
+  -p, --pattern PATTERN
                         a pattern to use to select project specifications
                         filtered by name
   -d, --deploy          whether or not to also attempt to deploy or install
@@ -97,7 +96,7 @@ options:
 ### `custom`
 
 ```
-$ ./venv3.12/bin/ufs custom -h
+$ ./venv3.14/bin/ufs custom -h
 
 usage: ufs custom [-h] [-c CONFIG] [-a] [-n] [-p PATTERN] [projects ...]
 
@@ -107,11 +106,10 @@ positional arguments:
 
 options:
   -h, --help            show this help message and exit
-  -c CONFIG, --config CONFIG
-                        an optional path to the configuration directory
+  -c, --config CONFIG   an optional path to the configuration directory
   -a, --all             interact with all configured projects
   -n, --no-interact     don't run package-implemented interactions
-  -p PATTERN, --pattern PATTERN
+  -p, --pattern PATTERN
                         a pattern to use to select project specifications
                         filtered by name
 
@@ -120,7 +118,7 @@ options:
 ### `fetch`
 
 ```
-$ ./venv3.12/bin/ufs fetch -h
+$ ./venv3.14/bin/ufs fetch -h
 
 usage: ufs fetch [-h] [-c CONFIG] [-a] [-n] [-p PATTERN] [-u] [projects ...]
 
@@ -130,11 +128,10 @@ positional arguments:
 
 options:
   -h, --help            show this help message and exit
-  -c CONFIG, --config CONFIG
-                        an optional path to the configuration directory
+  -c, --config CONFIG   an optional path to the configuration directory
   -a, --all             interact with all configured projects
   -n, --no-interact     don't run package-implemented interactions
-  -p PATTERN, --pattern PATTERN
+  -p, --pattern PATTERN
                         a pattern to use to select project specifications
                         filtered by name
   -u, --update          whether or not to also attempt to update project
